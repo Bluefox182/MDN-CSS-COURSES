@@ -1,0 +1,8 @@
+.box {
+  width: 400px;
+  border: 5px solid coral;
+}
+
+.beach-max-width {
+  max-width: 100%;
+}
