@@ -1,0 +1,10 @@
+.box {
+  width: 400px;
+  padding: 1em;
+  border-radius: 0.5em;
+  border: 5px solid rebeccapurple;
+  background-color: lightblue;
+}
+.box::after {
+  content: "This is a string. I know because it is quoted in the CSS.";
+}
