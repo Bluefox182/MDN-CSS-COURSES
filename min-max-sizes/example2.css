@@ -1,0 +1,16 @@
+.box {
+  width: 800px;
+  display: flex;
+  border: 5px solid wheat;
+}
+.minibox {
+  width: 400px;
+  display: flex;
+  border: 5px solid coral;
+}
+.width {
+  width: 100%;
+}
+.max {
+  max-width: 100%;
+}

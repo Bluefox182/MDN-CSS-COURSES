@@ -1,0 +1,6 @@
+.box {
+  border: 5px solid darkblue;
+  min-height: 150px;
+  width: 200px;
+  display: inline-block;
+}
