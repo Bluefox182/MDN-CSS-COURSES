@@ -1,0 +1,25 @@
+.box,
+.wapper {
+  font-size: 25px;
+  border-radius: 0.5em;
+  padding: 10px 14px 10px 10px;
+  border: 5px solid rebeccapurple;
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.hex {
+  background-color: #86defa;
+}
+
+.rgb {
+  background-color: rgb(134, 222, 250);
+}
+
+.hsl {
+  background-color: hsl(194, 92%, 75%);
+}
+
+.transparency {
+  background-color: rgb(134, 222, 250, 0.2);
+}
