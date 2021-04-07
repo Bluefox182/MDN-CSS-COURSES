@@ -1,0 +1,11 @@
+.wrapper {
+  width: 400px;
+}
+
+.box {
+  width: calc(20% + 100px);
+  padding: 1em;
+  border-radius: 0.5em;
+  border: 5px solid rebeccapurple;
+  background-color: lightblue;
+}
