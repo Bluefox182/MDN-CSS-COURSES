@@ -1,0 +1,19 @@
+/* Selectors List */
+/* WAY #1 */
+h1 {
+  color: blue;
+}
+
+.special {
+  color: blue;
+}
+/* WAY #2 */
+h1,
+.special {
+  color: blue;
+}
+/* WAY #3 */
+h1,
+.special {
+  color: blue;
+}

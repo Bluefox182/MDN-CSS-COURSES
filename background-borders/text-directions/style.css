@@ -1,0 +1,29 @@
+/* inline-size is for width  */
+/* block-size is for height */
+
+/* horizontal-tb: Top-to-bottom block flow direction. Sentences run horizontally. */
+.horizontal {
+  writing-mode: horizontal-tb;
+  border: 5px solid darkred;
+  display: inline-block;
+
+  inline-size: 150px;
+  block-size: 200px;
+}
+
+/* vertical-rl: Right-to-left block flow direction. Sentences run vertically. */
+.vertical {
+  writing-mode: vertical-rl;
+  border: 5px solid yellowgreen;
+  display: inline-block;
+  inline-size: 200px;
+  block-size: 150px;
+}
+/* vertical-lr: Left-to-right block flow direction. Sentences run vertically. */
+.vertical2 {
+  writing-mode: vertical-lr;
+  border: 5px solid orange;
+  display: inline-block;
+  inline-size: 200px;
+  block-size: 150px;
+}

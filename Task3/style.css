@@ -1,0 +1,12 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+.box {
+  border: 5px dotted black;
+  margin: 20px 1em 40px 2em;
+  padding: 1em;
+}

@@ -1,0 +1,9 @@
+.box {
+  background-image: url("./space1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 5px solid gray;
+  height: 300px;
+  width: 300px;
+}

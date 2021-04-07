@@ -1,0 +1,12 @@
+.box {
+  background-color: #56956b;
+  padding: 20px 10px;
+}
+
+h2 {
+  background-color: rgb(38, 100, 172);
+  color: white;
+}
+span {
+  background-color: rgba(233, 211, 17, 0.5);
+}

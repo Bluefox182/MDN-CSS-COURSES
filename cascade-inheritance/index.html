@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Controlling inheritance</title>
+  </head>
+  <body>
+    <h1>Controlling inheritance</h1>
+    <article>
+      <p>
+        CSS provides four special universal property values for controlling
+        inheritance. Every CSS property accepts these values.
+      </p>
+    </article>
+
+    <h3>inherit</h3>
+    <p>
+      Sets the property value applied to a selected element to be the same as
+      that of its parent element. Effectively, this "turns on inheritance".
+    </p>
+    <h3>initial</h3>
+    <p>
+      Sets the property value applied to a selected element to the initial value
+      of that property.
+    </p>
+    <h3>unset</h3>
+    <p>
+      Resets the property to its natural value, which means that if the property
+      is naturally inherited it acts like inherit, otherwise it acts like
+      initial.
+    </p>
+
+    <h2>Example</h2>
+    <ul>
+      <li>Default <a href="#">link</a> color</li>
+      <li class="my-class-1">Inherit the <a href="#">link</a> color</li>
+      <li class="my-class-2">Reset the <a href="#">link</a> color</li>
+      <li class="my-class-3">Unset the <a href="#">link</a> color</li>
+    </ul>
+
+    <h2>Example #2</h2>
+    <blockquote>
+      <p>This blockquote is styled</p>
+    </blockquote>
+
+    <blockquote class="fix-this">
+      <p>This blockquote is not styled</p>
+    </blockquote>
+  </body>
+</html>
