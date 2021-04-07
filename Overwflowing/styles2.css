@@ -12,3 +12,10 @@
   font-size: 250%;
   word-break: break-all;
 }
+/* Overflow Wrap */
+.word3 {
+  border: 5px solid #333333;
+  width: 100px;
+  font-size: 250%;
+  overflow-wrap: break-word;
+}
